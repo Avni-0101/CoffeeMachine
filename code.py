@@ -119,16 +119,13 @@ def coupon_code():
 
 '''
 Machine has took the order, user will pay now.
-User can by cash or by UPI
 A function is now to be made for the transaction purpose
 '''
 
 def money_paid():
 
     '''
-    Firstly machine will ask from user whether money is to paid by cash or by UPI mode.
-    if user decides to pay by cash, he will insert notes of different denominations, net amount then be calculated by machine and returned.
-    and if user decides to pay by UPI mode, a QR code will be displayed and user enters the amount paid via UPI and this is returned.
+    He will insert notes of different denominations, net amount then be calculated by machine and returned.
     '''
 
     print("Insert the cash in following denominations.")                  # asks the user in which mode he wants to pay
